@@ -65,7 +65,7 @@ int posY = mouseY;
 
  	void show(){
  		life+=(int)(Math.random()*50);
- 		if(life<(int)(Math.random()*500)+100000){
+ 		if(life<(int)(Math.random()*1500)+90000){
  			fill(myColor,100,100);
  			ellipse(myX,myY,10,10);
  		} 
